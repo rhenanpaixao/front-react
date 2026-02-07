@@ -1,0 +1,68 @@
+.card-topo {
+  width: 1920px;
+  height: 530px;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  background: #F7F4EB;
+  z-index: 1;
+}
+
+.banner {
+  width: 1920px;
+  height: 530px;
+  position: relative;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.banner-title-small {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #9A9A9A;
+  margin-bottom: 28px;
+}
+
+.banner-title-large {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #506849;
+  margin-bottom: 38px;
+  max-width: 675px;
+}
+
+.btn-comece-agora {
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  background: #F8C736;
+  color: #506849;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-comece-agora:hover {
+  background: #e0b530;
+  transform: scale(1.05);
+}

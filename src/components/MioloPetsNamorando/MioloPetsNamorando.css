@@ -1,0 +1,305 @@
+.miolo-pets-namorando {
+  width: 1920px;
+  position: relative;
+  min-height: 1400px;
+}
+
+/* Animações */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Estado inicial - escondido */
+.animate-item {
+  opacity: 0;
+}
+
+/* Estado animado - visível */
+.animate-item.visible {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.pets-namorando-titulo {
+  width: 314px;
+  height: 44px;
+  position: absolute;
+  top: 313px;
+  left: 803px;
+}
+
+.pets-namorando-titulo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pets-namorando-titulo.visible {
+  animation-name: fadeInUp;
+  animation-delay: 0.2s;
+}
+
+.pets-namorando-subtitulo {
+  width: 557px;
+  height: 27px;
+  position: absolute;
+  top: 378px;
+  left: 682px;
+}
+
+.pets-namorando-subtitulo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pets-namorando-subtitulo.visible {
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+
+/* Animações para os casais com delays escalonados */
+.casal1-pet1.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal1-coracao.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal1-pet2.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.nome-casal1.visible { animation-name: fadeInUp; animation-delay: 0.7s; }
+
+.casal2-pet1.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal2-coracao.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.casal2-pet2.visible { animation-name: fadeInScale; animation-delay: 0.7s; }
+.nome-casal2.visible { animation-name: fadeInUp; animation-delay: 0.8s; }
+
+.casal3-pet1.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.casal3-coracao.visible { animation-name: fadeInScale; animation-delay: 0.7s; }
+.casal3-pet2.visible { animation-name: fadeInScale; animation-delay: 0.8s; }
+.nome-casal3.visible { animation-name: fadeInUp; animation-delay: 0.9s; }
+
+.casal4-pet1.visible { animation-name: fadeInScale; animation-delay: 0.2s; }
+.casal4-coracao.visible { animation-name: fadeInScale; animation-delay: 0.3s; }
+.casal4-pet2.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.nome-casal4.visible { animation-name: fadeInUp; animation-delay: 0.5s; }
+
+.casal5-pet1.visible { animation-name: fadeInScale; animation-delay: 0.3s; }
+.casal5-coracao.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal5-pet2.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.nome-casal5.visible { animation-name: fadeInUp; animation-delay: 0.6s; }
+
+.casal6-pet1.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal6-coracao.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal6-pet2.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.nome-casal6.visible { animation-name: fadeInUp; animation-delay: 0.7s; }
+
+.publicidade.visible { animation-name: fadeInUp; animation-delay: 0.2s; }
+
+.casal7-pet1.visible { animation-name: fadeInScale; animation-delay: 0.3s; }
+.casal7-coracao.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal7-pet2.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.nome-casal7.visible { animation-name: fadeInUp; animation-delay: 0.6s; }
+
+.casal8-pet1.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal8-coracao.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal8-pet2.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.nome-casal8.visible { animation-name: fadeInUp; animation-delay: 0.7s; }
+
+.casal9-pet1.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal9-coracao.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.casal9-pet2.visible { animation-name: fadeInScale; animation-delay: 0.7s; }
+.nome-casal9.visible { animation-name: fadeInUp; animation-delay: 0.8s; }
+
+.casal10-pet1.visible { animation-name: fadeInScale; animation-delay: 0.2s; }
+.casal10-coracao.visible { animation-name: fadeInScale; animation-delay: 0.3s; }
+.casal10-pet2.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.nome-casal10.visible { animation-name: fadeInUp; animation-delay: 0.5s; }
+
+.casal11-pet1.visible { animation-name: fadeInScale; animation-delay: 0.3s; }
+.casal11-coracao.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal11-pet2.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.nome-casal11.visible { animation-name: fadeInUp; animation-delay: 0.6s; }
+
+.casal12-pet1.visible { animation-name: fadeInScale; animation-delay: 0.4s; }
+.casal12-coracao.visible { animation-name: fadeInScale; animation-delay: 0.5s; }
+.casal12-pet2.visible { animation-name: fadeInScale; animation-delay: 0.6s; }
+.nome-casal12.visible { animation-name: fadeInUp; animation-delay: 0.7s; }
+
+.btn-mais.visible { animation-name: fadeInUp; animation-delay: 0.2s; }
+
+/* Imagens dos pets */
+.pet-img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
+
+.pet-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Corações */
+.coracao-img {
+  width: 59.18px;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+}
+
+.coracao-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* PRIMEIRA LINHA (top: 488px) - 3 casais horizontais */
+/* Casal 1: Guido e Abigail */
+.casal1-pet1 { top: 488px; left: 370px; }
+.casal1-coracao { top: 548px; left: 530px; }
+.casal1-pet2 { top: 488px; left: 570px; }
+
+/* Casal 2: Pancho e Kiwi */
+.casal2-pet1 { top: 488px; left: 776px; }
+.casal2-coracao { top: 548px; left: 936px; }
+.casal2-pet2 { top: 488px; left: 976px; }
+
+/* Casal 3: Bingo e Jade */
+.casal3-pet1 { top: 488px; left: 1182px; }
+.casal3-coracao { top: 548px; left: 1342px; }
+.casal3-pet2 { top: 488px; left: 1382px; }
+
+/* Nomes dos casais - PRIMEIRA LINHA (top: 688px) */
+.nome-casal {
+  position: absolute;
+  top: 688px;
+  height: 22px;
+}
+
+.nome-casal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nome-casal1 { width: 144px; left: 488px; }
+.nome-casal2 { width: 134px; left: 894px; }
+.nome-casal3 { width: 123px; left: 1298px; }
+
+/* SEGUNDA LINHA (top: 760px) - 3 casais horizontais */
+/* Casal 4: Lennon e Jujuba */
+.casal4-pet1 { top: 760px; left: 370px; }
+.casal4-coracao { top: 820px; left: 530px; }
+.casal4-pet2 { top: 760px; left: 570px; }
+
+/* Casal 5: Guido e Abigail (repetição) */
+.casal5-pet1 { top: 760px; left: 776px; }
+.casal5-coracao { top: 820px; left: 936px; }
+.casal5-pet2 { top: 760px; left: 976px; }
+
+/* Casal 6: Pancho e Kiwi (repetição) */
+.casal6-pet1 { top: 760px; left: 1182px; }
+.casal6-coracao { top: 820px; left: 1342px; }
+.casal6-pet2 { top: 760px; left: 1382px; }
+
+/* Nome casal 4 (top: 960px) */
+.nome-casal4 { width: 157px; top: 960px; left: 481px; }
+.nome-casal5 { width: 144px; top: 960px; left: 894px; }
+.nome-casal6 { width: 134px; top: 960px; left: 1298px; }
+
+/* Publicidade */
+.publicidade {
+  width: 750px;
+  height: 100px;
+  position: absolute;
+  top: 1032px;
+  left: 581px;
+}
+
+.publicidade img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* TERCEIRA LINHA (top: 1192px) - após publicidade */
+/* Casal 7: Guido e Abigail */
+.casal7-pet1 { top: 1192px; left: 370px; }
+.casal7-coracao { top: 1252px; left: 530px; }
+.casal7-pet2 { top: 1192px; left: 570px; }
+
+/* Casal 8: Pancho e Kiwi */
+.casal8-pet1 { top: 1192px; left: 776px; }
+.casal8-coracao { top: 1252px; left: 936px; }
+.casal8-pet2 { top: 1192px; left: 976px; }
+
+/* Casal 9: Bingo e Jade */
+.casal9-pet1 { top: 1192px; left: 1182px; }
+.casal9-coracao { top: 1252px; left: 1342px; }
+.casal9-pet2 { top: 1192px; left: 1382px; }
+
+/* Nomes dos casais - TERCEIRA LINHA (top: 1392px) */
+.nome-casal7 { width: 144px; top: 1392px; left: 488px; }
+.nome-casal8 { width: 134px; top: 1392px; left: 894px; }
+.nome-casal9 { width: 123px; top: 1392px; left: 1298px; }
+
+/* QUARTA LINHA (top: 1464px) */
+/* Casal 10: Lennon e Jujuba */
+.casal10-pet1 { top: 1464px; left: 370px; }
+.casal10-coracao { top: 1524px; left: 530px; }
+.casal10-pet2 { top: 1464px; left: 570px; }
+
+/* Casal 11: Guido e Abigail */
+.casal11-pet1 { top: 1464px; left: 776px; }
+.casal11-coracao { top: 1524px; left: 936px; }
+.casal11-pet2 { top: 1464px; left: 976px; }
+
+/* Casal 12: Pancho e Kiwi */
+.casal12-pet1 { top: 1464px; left: 1182px; }
+.casal12-coracao { top: 1524px; left: 1342px; }
+.casal12-pet2 { top: 1464px; left: 1382px; }
+
+/* Nomes dos casais - QUARTA LINHA (top: 1664px) */
+.nome-casal10 { width: 157px; top: 1664px; left: 481px; }
+.nome-casal11 { width: 144px; top: 1664px; left: 894px; }
+.nome-casal12 { width: 134px; top: 1664px; left: 1298px; }
+
+/* Botão Carregar Mais */
+.btn-mais {
+  width: 380px;
+  height: 60px;
+  position: absolute;
+  top: 1800px;
+  left: 770px;
+  border-radius: 30px;
+  background: #F8C736;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #506849;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-mais:hover {
+  background: #e6b625;
+  transform: scale(1.05);
+}
