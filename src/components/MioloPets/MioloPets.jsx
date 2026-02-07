@@ -27,11 +27,11 @@ function MioloPets() {
       {/* Seção 1 - Cadastre seu animal */}
       <div className="secao-1">
         <div className="imagem1 animate-item">
-          <img src="/src/assets/images/imagem1.png" alt="Cadastre seu animal" />
+          <img src="/images/imagem1.png" alt="Cadastre seu animal" />
         </div>
         
         <div className="cadastre-pet-icon animate-item">
-          <img src="/src/assets/images/cadastre-pet.png" alt="Cadastre pet icon" />
+          <img src="/images/cadastre-pet.png" alt="Cadastre pet icon" />
         </div>
         
         <h2 className="cadastre-titulo animate-item">
@@ -43,14 +43,14 @@ function MioloPets() {
         </p>
         
         <div className="linha-1 animate-item">
-          <img src="/src/assets/images/Vector-1.png" alt="" />
+          <img src="/images/Vector-1.png" alt="" />
         </div>
       </div>
 
       {/* Seção 2 - Procure pretendentes */}
       <div className="secao-2">
         <div className="procure-pet-icon animate-item">
-          <img src="/src/assets/images/sear.png" alt="Search icon" />
+          <img src="/images/sear.png" alt="Search icon" />
         </div>
         
         <h2 className="procure-titulo animate-item">
@@ -62,22 +62,22 @@ function MioloPets() {
         </p>
         
         <div className="imagem2 animate-item">
-          <img src="/src/assets/images/imagem2.png" alt="Procure pretendentes" />
+          <img src="/images/imagem2.png" alt="Procure pretendentes" />
         </div>
         
         <div className="linha-2 animate-item">
-          <img src="/src/assets/images/Vector-2.png" alt="" />
+          <img src="/images/Vector-2.png" alt="" />
         </div>
       </div>
 
       {/* Seção 3 - Marque um encontro */}
       <div className="secao-3">
         <div className="imagem3 animate-item">
-          <img src="/src/assets/images/imagem3.png" alt="Marque um encontro" />
+          <img src="/images/imagem3.png" alt="Marque um encontro" />
         </div>
         
         <div className="agende-pet-icon animate-item">
-          <img src="/src/assets/images/agende.png" alt="Agende icon" />
+          <img src="/images/agende.png" alt="Agende icon" />
         </div>
         
         <h2 className="agende-titulo animate-item">
