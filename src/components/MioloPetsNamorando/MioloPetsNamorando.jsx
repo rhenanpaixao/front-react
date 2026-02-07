@@ -54,7 +54,7 @@ function MioloPetsNamorando() {
         <img src="/images/kiwi.png" alt="Kiwi" />
       </div>
       <div className="nome-casal nome-casal2 animate-item">
-        <img src="/images/Pancho-e-kiwi.png" alt="Pancho e Kiwi" />
+        <img src="/images/Pancho-e-Kiwi.png" alt="Pancho e Kiwi" />
       </div>
 
       {/* Casal 3: Bingo e Jade */}
@@ -111,7 +111,7 @@ function MioloPetsNamorando() {
         <img src="/images/kiwi.png" alt="Kiwi" />
       </div>
       <div className="nome-casal nome-casal6 animate-item">
-        <img src="/images/Pancho-e-kiwi.png" alt="Pancho e Kiwi" />
+        <img src="/images/Pancho-e-Kiwi.png" alt="Pancho e Kiwi" />
       </div>
 
       {/* Publicidade */}
@@ -145,7 +145,7 @@ function MioloPetsNamorando() {
         <img src="/images/kiwi.png" alt="Kiwi" />
       </div>
       <div className="nome-casal nome-casal8 animate-item">
-        <img src="/images/Pancho-e-kiwi.png" alt="Pancho e Kiwi" />
+        <img src="/images/Pancho-e-Kiwi.png" alt="Pancho e Kiwi" />
       </div>
 
       {/* Casal 9: Bingo e Jade */}
@@ -202,7 +202,7 @@ function MioloPetsNamorando() {
         <img src="/images/kiwi.png" alt="Kiwi" />
       </div>
       <div className="nome-casal nome-casal12 animate-item">
-        <img src="/images/Pancho-e-kiwi.png" alt="Pancho e Kiwi" />
+        <img src="/images/Pancho-e-Kiwi.png" alt="Pancho e Kiwi" />
       </div>
 
       {/* Botão Carregar Mais */}
